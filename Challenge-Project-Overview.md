@@ -53,39 +53,41 @@ G&M is focused on leveraging data and technological innovations to support under
 ## 🎯 The Challenge
 
 ### Project Summary
-In this project, you will use data sets from USPTO, Tech Hubs, and ecosystem datasets (LinkedIn, YouTube, Instagram), as well as behavioral frameworks on coachability, entrepreneurial mindset, and grit established in the two separate 2025 SRI and CFRM projects. The project will involve data cleansing and ML techniques to build an intelligence platform that provides an ethical, AI-driven methodology for identifying under-capitalized founders and unlocking capital.
+In this project, you will use data sets from USPTO, Tech Hubs, ecosystem datasets, (LinkedIn, YouTube, Instagram), behavioral frameworks; coachability, entrepreneurial mindset, grit established in the 2"separate" 025 SRI and CFRM projects, data cleansing & ML techniques to build an intelligence platform.  This will help the company provide an ethical AI-driven identify under-capitalized founders and unlock capital.
 
 ### Success Criteria
-Working web application, risk scoring engine, trajectory output data and model, founder assessment prototype, opportunity heatmaps, executive presentation and documentation, and base Founder Intelligence Platform.
+- Working web application.
+- Risk scoring engine.
+- Trajectory output data and model.
+- Founder assessment prototype.
+- Opportunity heatmaps.
+- Executive presentation and documentation.
+- Base Founder Intelligence Platform
+
+### Stretch Goals
+- Create or integrate with an ethical AI-driven underwriting platform.
+- Base & Core Voice/Text Searchable Intelligence Platform
 
 ### Project Milestones
 
 Use these milestones to guide your work. Your team will create a **GitHub Projects board** to track tasks within each milestone.
 
 | Month | Milestone | Key Activities |
-| --- | --- | --- |
-| September | Data Ingestion, Preprocessing & Baseline Scoring Model | • Ingest and clean multi-source founder and startup datasets (demographics, team metrics, historical funding, market traction).<br>• Handle missing records, encode categorical attributes, and normalize numerical valuation and growth features.<br>• Perform Exploratory Data Analysis (EDA) on key success drivers and failure indicators across startup cohorts.<br>• Train baseline machine learning models (Logistic Regression / Decision Trees) to predict startup viability and funding success. |
-| October | Advanced Predictive Modeling & Feature Engineering | • Engineer domain-specific founder intelligence features (serial founder indicators, domain experience fit, team composition diversity, funding velocity).<br>• Develop advanced ML models (Random Forest, XGBoost, LightGBM) to generate multi-dimensional founder and startup success scores.<br>• Perform hyperparameter tuning, cross-validation, and evaluate model performance using ROC-AUC, F1-Score, and MAE. |
-| November / December | Model Explainability, Interactive Dashboard & Final Deliverables | • Apply model interpretability techniques (SHAP / LIME) to isolate key background and execution factors driving founder ratings.<br>• Build an interactive Streamlit application allowing investors and advisors to query founder profiles, view risk scores, and inspect key drivers.<br>• Finalize a clean, reproducible GitHub repository, complete technical documentation, and an executive pitch deck. |
-
-### Stretch Goals
-
-* **Automated Pitch Deck & Document Extraction:** Integrate an LLM/VLM pipeline to parse unstructured startup pitch decks and executive summaries into structured founder intelligence profiles.
-* **Investor-Founder Matchmaking Engine:** Build a recommendation module that matches high-potential founder profiles with relevant venture capital firms based on sector alignment, stage preference, and investment thesis.
-* **Dynamic Post-Investment Trajectory Tracker:** Develop a time-series monitoring module to track ongoing startup execution (hiring velocity, web traffic, social sentiment) post-evaluation.
-> **Note for the team:** Please create a GitHub Projects board in this repository to break these milestones into weekly tasks. Go to the **Projects** tab → **New project** → Choose **Board** → Add columns for each month.
+|---|---|---|
+| September | Data Foundation | • Project setup, data ingestion, and data acquisition.<br>• Data cleaning and feature engineering.<br>• Exploratory Data Analysis. |
+| October | AI & Machine Learning | • Risk prediction models.<br>• Clustering and segmentation.<br>• Explainability and feature importance. |
+| November | MVP Development | • Dashboard development.<br>• Heatmaps and visualizations.<br>• Testing, documentation, final presentation. |
 
 ---
 
 ## 📊 Dataset
 
-**Name and Source:** USPTO, Tech Hubs, LinkedIn, YouTube, Instagram, trajectory analysis from partner organization  
-**Format:** CSV, JSON, Excel  
+**Name and Source:** [TBD]
+**Format:** CSV/ TSV,JSON,Excel (.xlsx),Database export (e.g., SQL dump) 
 **Size:** 1gb to 5gb  
-**Location:** [Link to dataset or instructions for accessing it]
+**Location:** [TBD]
 
 ### Key Details
-- Publicly available data from USPTO, Tech Hubs, LinkedIn, YouTube, and Instagram, with trajectory analysis provided by a partner organization. Data types include numerical, categorical, and text in various formats such as CSV/TSV, JSON, Excel, and database exports.
 - [Any known limitations or preprocessing needed]
 - [Link to data dictionary or documentation, if available]
 
@@ -96,21 +98,10 @@ Use these milestones to guide your work. Your team will create a **GitHub Projec
 **ML Problem Type:** Classification, Clustering, Recommendation Systems, Natural Language Processing (NLP), Computer Vision, Time Series Analysis, Deep Learning / Neural Networks, Large Language Models (LLMs)/ Generative AI
 
 **Recommended Libraries:**
-- Classification
-- Clustering
-- Recommendation Systems
-- Natural Language Processing (NLP)
-- Computer Vision
-- Time Series Analysis
-- Deep Learning / Neural Networks
-- Large Language Models (LLMs)/ Generative AI
-- Supervised learning
-- Geo location
-- Reverse geo-coding
-- Heat mapping
+- [e.g., pandas, scikit-learn, TensorFlow, Hugging Face]
 
 **Evaluation Metrics:**
-- Accuracy, Precision/Recall, RMSE, BLEU score
+- [e.g., Accuracy, Precision/Recall, RMSE, BLEU score]
 
 ---
 
@@ -119,16 +110,16 @@ Use these milestones to guide your work. Your team will create a **GitHub Projec
 The following resources will help your team understand the problem space and potential technical approaches for this project:
 
 **Background Reading:**
-- [Link to an article or blog post about the problem domain]
-- [Link to an industry report or case study]
+- [e.g., Link to an article or blog post about the problem domain]
+- [e.g., Link to an industry report or case study]
 
 **Technical Tutorials:**
-- [Link to a free tutorial on the ML technique(s) involved]
-- [Link to documentation for a key library or tool]
+- [e.g., Link to a free tutorial on the ML technique(s) involved]
+- [e.g., Link to documentation for a key library or tool]
 
 **Code Examples:**
-- [Link to a relevant GitHub repo]
-- [Link to a sample implementation or starter code]
+- [e.g., Link to a relevant GitHub repo]
+- [e.g., Link to a sample implementation or starter code]
 
 **Other:**
 - [Links to any additional resources — e.g., papers, videos, podcasts, etc.]
@@ -139,14 +130,19 @@ The following resources will help your team understand the problem space and pot
 
 ## 🤝 How We'll Work Together
 
-**Check-ins:** During our biweekly 60-min AI Studio Lab Section meeting block (2nd and 4th week of every month)  
-**Communication:** Slack (Break Through Tech workspace) or email  
-**Response time:** Within 48 hours on weekdays  
+**Official check-ins:** During our biweekly 45-minute AI Studio Lab Section meeting block (2nd and 4th week of every month)
 
-**Recommended Tools:**
-- **Coding:** Google Colab, VS Code
-- **Collaboration:** GitHub, Notion
-- **Virtual Meetings:** Zoom, Google Meet
+ **Other ways to reach out to me with questions:** 
+* [e.g., Your team's channel within Break Through Tech’s Discord space]
+* [e.g., Email; please copy your teammates and AI Studio Coach]
+* [e.g., Request a team check-in on Zoom]
+* [Note: I will aim to respond within 48 hours. Please reach out to your AI Studio Coach with urgent questions.]
+
+> 💡 **Challenge Advisor: Please update the above based on your availability and preference. If you are not able to answer questions or meet with fellows outside of the biweekly Lab Section check-ins, simply write in "N/A (only available during the official check-in times)"**
+
+**Recommended free coding / collaboration tools**
+* […]
+* […]
 
 ---
 
@@ -156,10 +152,8 @@ The following resources will help your team understand the problem space and pot
 2. **Begin reviewing the dataset** using the link above
 3. **Read the GitHub Projects documentation** [here](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
 
-I'm excited to work with you!
+I’m excited to work with you!
 
 ---
 
 ## ❓ Questions?
-
-Please bring any questions to our first meeting during the week of August 24th (Break Through Tech's Bridge to Studio - Session B).
