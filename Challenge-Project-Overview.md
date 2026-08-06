@@ -62,12 +62,9 @@ Working web application, risk scoring engine, trajectory output data and model, 
 
 Use these milestones to guide your work. Your team will create a **GitHub Projects board** to track tasks within each milestone.
 
-| Month       | Milestone                | Key Activities                                                                            |
-|-------------|--------------------------|------------------------------------------------------------------------------------------|
 | Month | Milestone | Key Activities |
 | --- | --- | --- |
 | September | Data Ingestion, Preprocessing & Baseline Scoring Model | • Ingest and clean multi-source founder and startup datasets (demographics, team metrics, historical funding, market traction).<br>
-
 • Handle missing records, encode categorical attributes, and normalize numerical valuation and growth features.<br>
 <br>• Perform Exploratory Data Analysis (EDA) on key success drivers and failure indicators across startup cohorts.<br>
 • Train baseline machine learning models (Logistic Regression / Decision Trees) to predict startup viability and funding success. |
