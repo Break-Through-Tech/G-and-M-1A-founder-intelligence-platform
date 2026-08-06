@@ -64,16 +64,9 @@ Use these milestones to guide your work. Your team will create a **GitHub Projec
 
 | Month | Milestone | Key Activities |
 | --- | --- | --- |
-| September | Data Ingestion, Preprocessing & Baseline Scoring Model | • Ingest and clean multi-source founder and startup datasets (demographics, team metrics, historical funding, market traction).<br>
-• Handle missing records, encode categorical attributes, and normalize numerical valuation and growth features.<br>
-<br>• Perform Exploratory Data Analysis (EDA) on key success drivers and failure indicators across startup cohorts.<br>
-• Train baseline machine learning models (Logistic Regression / Decision Trees) to predict startup viability and funding success. |
-| October | Advanced Predictive Modeling & Feature Engineering | • Engineer domain-specific founder intelligence features (serial founder indicators, domain experience fit, team composition diversity, funding velocity).<br>
-• Develop advanced ML models (Random Forest, XGBoost, LightGBM) to generate multi-dimensional founder and startup success scores.<br>
-• Perform hyperparameter tuning, cross-validation, and evaluate model performance using ROC-AUC, F1-Score, and MAE. |
-| November / December | Model Explainability, Interactive Dashboard & Final Deliverables | • Apply model interpretability techniques (SHAP / LIME) to isolate key background and execution factors driving founder ratings.<br>
-• Build an interactive Streamlit application allowing investors and advisors to query founder profiles, view risk scores, and inspect key drivers.<br>
-• Finalize a clean, reproducible GitHub repository, complete technical documentation, and an executive pitch deck. |
+| September | Data Ingestion, Preprocessing & Baseline Scoring Model | • Ingest and clean multi-source founder and startup datasets (demographics, team metrics, historical funding, market traction).<br>• Handle missing records, encode categorical attributes, and normalize numerical valuation and growth features.<br>• Perform Exploratory Data Analysis (EDA) on key success drivers and failure indicators across startup cohorts.<br>• Train baseline machine learning models (Logistic Regression / Decision Trees) to predict startup viability and funding success. |
+| October | Advanced Predictive Modeling & Feature Engineering | • Engineer domain-specific founder intelligence features (serial founder indicators, domain experience fit, team composition diversity, funding velocity).<br>• Develop advanced ML models (Random Forest, XGBoost, LightGBM) to generate multi-dimensional founder and startup success scores.<br>• Perform hyperparameter tuning, cross-validation, and evaluate model performance using ROC-AUC, F1-Score, and MAE. |
+| November / December | Model Explainability, Interactive Dashboard & Final Deliverables | • Apply model interpretability techniques (SHAP / LIME) to isolate key background and execution factors driving founder ratings.<br>• Build an interactive Streamlit application allowing investors and advisors to query founder profiles, view risk scores, and inspect key drivers.<br>• Finalize a clean, reproducible GitHub repository, complete technical documentation, and an executive pitch deck. |
 
 ### Stretch Goals
 
