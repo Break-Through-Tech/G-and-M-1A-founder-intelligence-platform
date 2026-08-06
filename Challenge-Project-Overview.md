@@ -64,10 +64,25 @@ Use these milestones to guide your work. Your team will create a **GitHub Projec
 
 | Month       | Milestone                | Key Activities                                                                            |
 |-------------|--------------------------|------------------------------------------------------------------------------------------|
-| **September** | Data Ingestion & EDA   | Data ingestion, cleaning, feature engineering, exploratory data analysis (EDA)         |
-| **October** | Model Development         | Risk prediction models, clustering, segmentation, and explainability                   |
-| **November** | MVP Development          | Dashboard creation, heatmaps, visualizations, testing, and final presentation           |
+| Month | Milestone | Key Activities |
+| --- | --- | --- |
+| September | Data Ingestion, Preprocessing & Baseline Scoring Model | • Ingest and clean multi-source founder and startup datasets (demographics, team metrics, historical funding, market traction).<br>
 
+• Handle missing records, encode categorical attributes, and normalize numerical valuation and growth features.<br>
+<br>• Perform Exploratory Data Analysis (EDA) on key success drivers and failure indicators across startup cohorts.<br>
+• Train baseline machine learning models (Logistic Regression / Decision Trees) to predict startup viability and funding success. |
+| October | Advanced Predictive Modeling & Feature Engineering | • Engineer domain-specific founder intelligence features (serial founder indicators, domain experience fit, team composition diversity, funding velocity).<br>
+• Develop advanced ML models (Random Forest, XGBoost, LightGBM) to generate multi-dimensional founder and startup success scores.<br>
+• Perform hyperparameter tuning, cross-validation, and evaluate model performance using ROC-AUC, F1-Score, and MAE. |
+| November / December | Model Explainability, Interactive Dashboard & Final Deliverables | • Apply model interpretability techniques (SHAP / LIME) to isolate key background and execution factors driving founder ratings.<br>
+• Build an interactive Streamlit application allowing investors and advisors to query founder profiles, view risk scores, and inspect key drivers.<br>
+• Finalize a clean, reproducible GitHub repository, complete technical documentation, and an executive pitch deck. |
+
+### Stretch Goals
+
+* **Automated Pitch Deck & Document Extraction:** Integrate an LLM/VLM pipeline to parse unstructured startup pitch decks and executive summaries into structured founder intelligence profiles.
+* **Investor-Founder Matchmaking Engine:** Build a recommendation module that matches high-potential founder profiles with relevant venture capital firms based on sector alignment, stage preference, and investment thesis.
+* **Dynamic Post-Investment Trajectory Tracker:** Develop a time-series monitoring module to track ongoing startup execution (hiring velocity, web traffic, social sentiment) post-evaluation.
 > **Note for the team:** Please create a GitHub Projects board in this repository to break these milestones into weekly tasks. Go to the **Projects** tab → **New project** → Choose **Board** → Add columns for each month.
 
 ---
