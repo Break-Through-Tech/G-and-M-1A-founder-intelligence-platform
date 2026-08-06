@@ -82,9 +82,9 @@ Use these milestones to guide your work. Your team will create a **GitHub Projec
 
 ## 📊 Dataset
 
-**Name and Source:** [TBD]
-**Format:** CSV/ TSV,JSON,Excel (.xlsx),Database export (e.g., SQL dump) 
-**Size:** 1gb to 5gb  
+**Name and Source:** [TBD]   
+**Format:** CSV/ TSV,JSON,Excel (.xlsx),Database export (e.g., SQL dump)   
+**Size:** 1gb to 5gb   
 **Location:** [TBD]
 
 ### Key Details
